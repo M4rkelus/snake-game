@@ -1,15 +1,16 @@
 .page {
   position: relative;
+  margin: 0;
   background: no-repeat
     linear-gradient(0deg, rgba(58, 71, 58, 1) 12%, rgba(33, 244, 67, 1) 100%);
   height: 100vh;
-  margin: 0;
 }
+
 .snake {
   display: block;
-  margin: 0 auto;
-  border-radius: 50px;
   border: 10px solid rgb(191, 191, 191);
+  border-radius: 50px;
+  margin: 20px auto;
 }
 
 .controls {
@@ -20,29 +21,29 @@
 
 .popup {
   position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: none;
   justify-content: center;
   align-items: center;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background: rgba(30, 39, 30, 0.325);
 }
 
 .popup__container {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  width: 150px;
-  height: 100px;
-  background-color: rgb(253, 255, 233);
-  border-radius: 20px;
   border: 10px solid rgb(191, 191, 191);
+  border-radius: 20px;
+  background-color: rgb(253, 255, 233);
+  height: 100px;
+  width: 150px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .popup__text,
@@ -50,6 +51,6 @@
   margin: 0 0 10px;
 }
 .popup__restart-button {
-  font-size: 20px;
   padding: 4px;
+  font-size: 20px;
 }
