@@ -1,5 +1,9 @@
 .page {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   background: no-repeat
     linear-gradient(0deg, rgba(58, 71, 58, 1) 12%, rgba(33, 244, 67, 1) 100%);
@@ -10,12 +14,10 @@
   display: block;
   border: 10px solid rgb(191, 191, 191);
   border-radius: 50px;
-  margin: 0 auto;
 }
 
 .controls {
   display: block;
-  margin: 20px auto;
   width: 400px;
 }
 
